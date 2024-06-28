@@ -40,17 +40,17 @@ export default function Skills() {
       }}
       ref={sectionRefs.skillSection}
     >
-      <div className="relative w-5/6 lg:h-[750px] xl:h-[800px] bg-slate-950/50 m-auto p-[40px] flex flex-col items-center shadow-black shadow-xl">
-        <h1 className="absolute top-0 p-4 lg:text-4xl xl:text-5xl font-semibold bg-gradient-to-r from-sky-600 to-slate-800 w-full shadow-black shadow-md">
+      <div className="relative w-5/6 lg:h-[750px] xl:h-[800px] bg-slate-950/50 m-auto md:p-[40px] flex flex-col items-center shadow-black shadow-xl">
+        <h1 className="absolute top-0 p-4 text-xl font-bold md:font-semibold lg:text-4xl xl:text-5xl  bg-gradient-to-r from-sky-600 to-slate-800 w-full shadow-black shadow-md">
           Skills
         </h1>
-        <div className="flex flex-col gap-5 md:flex-row h-full w-full py-[100px]">
-          <div className="grid h-full md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:px-3 sm:py-8">
+        <div className="flex flex-col gap-5 h-full w-full py-[50px] md:flex-row md:py-[100px]">
+          <div className="grid h-full py-8 px-2 md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:px-3 sm:py-8">
             <div className="m-auto flex flex-col gap-8">
               <h2 className="font-semibold text-center lg:text-xl xl:text-3xl">
                 Application and Data
               </h2>
-              <ul className="grid gap-5 sm:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-4">
+              <ul className="grid grid-cols-3 gap-3 xl:grid-cols-4 xl:gap-4">
                 <li className="flex flex-col items-center  gap-1">
                   <img
                     className="p-1.5 md:h-[50px] lg:h-[60px] xl:h-[80px]"
@@ -175,12 +175,12 @@ export default function Skills() {
             </div>
           </div>
           <div className="divider divider-horizontal"></div>
-          <div className="grid h-full md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:p-3 sm:py-8">
+          <div className="grid h-full py-8 px-2 md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:px-3 sm:py-8">
             <div className="m-auto flex flex-col gap-8">
               <h2 className="font-semibold lg:text-2xl xl:text-3xl text-center">
                 Utilities
               </h2>
-              <ul className="grid gap-5 sm:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-4">
+              <ul className="grid grid-cols-3 gap-3 xl:grid-cols-4 xl:gap-4">
                 <li className="flex flex-col items-center  gap-1">
                   <img
                     className="p-1.5 md:h-[50px] lg:h-[60px] xl:h-[80px]"
@@ -265,12 +265,12 @@ export default function Skills() {
             </div>
           </div>
           <div className="divider divider-horizontal"></div>
-          <div className="grid h-full md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:px-3 sm:py-8">
+          <div className="grid h-full py-8 px-2 md:w-1/3 flex-grow card bg-base-300 rounded-none justify-center sm:px-3 sm:py-8">
             <div className="m-auto flex flex-col gap-8">
               <h2 className="font-semibold lg:text-2xl xl:text-3xl text-center">
                 DevOps
               </h2>
-              <ul className="grid gap-5 sm:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-4">
+              <ul className="grid grid-cols-3 gap-3 xl:grid-cols-4 xl:gap-4">
                 <li className="flex flex-col items-center  gap-1">
                   <img
                     className="p-1.5 md:h-[50px] lg:h-[60px] xl:h-[80px]"
