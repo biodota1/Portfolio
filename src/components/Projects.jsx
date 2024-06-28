@@ -60,7 +60,7 @@ export default function Projects() {
                 className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
                 onClick={handleToggle1}
               >
-                Show more...
+                Show <span>{showProject1 ? "less" : "more"}</span>...
               </button>
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
@@ -93,7 +93,7 @@ export default function Projects() {
                 className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
                 onClick={handleToggle2}
               >
-                Show more...
+                Show <span>{showProject2 ? "less" : "more"}</span>...
               </button>
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
@@ -126,7 +126,7 @@ export default function Projects() {
                 className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
                 onClick={handleToggle3}
               >
-                Show more...
+                Show <span>{showProject3 ? "less" : "more"}</span>...
               </button>
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
@@ -158,7 +158,7 @@ export default function Projects() {
                 className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
                 onClick={handleToggle4}
               >
-                Show more...
+                Show <span>{showProject4 ? "less" : "more"}</span>...
               </button>
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
