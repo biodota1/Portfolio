@@ -13,7 +13,7 @@ export default function Home() {
   //   backgroundRepeat: "no-repeat",
   // };
   return (
-    <div className="min-h-screen bg-slate-800">
+    <div className="min-h-screen bg-transparent">
       <Hero />
       <Skills />
       <Projects />
