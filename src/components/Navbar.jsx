@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="navbar-center">
         <ul className="menu menu-horizontal px-1 gap-x-6">
           <button
-            className="text-sky-500 text-lg font-semibold"
+            className="text-sky-500 md:text-lg font-semibold"
             onClick={() => {
               handleScroll("skillSection");
             }}
@@ -29,7 +29,7 @@ export default function Navbar() {
             Skills
           </button>
           <button
-            className="text-sky-500 text-lg font-semibold"
+            className="text-sky-500 md:text-lg font-semibold"
             onClick={() => {
               handleScroll("projectSection");
             }}
@@ -37,7 +37,7 @@ export default function Navbar() {
             Projects
           </button>
           <button
-            className="text-sky-500 text-lg font-semibold"
+            className="text-sky-500 md:text-lg font-semibold"
             onClick={() => {
               handleScroll("personalSection");
             }}

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import background from "../assets/background.jpg";
 import { useScroll } from "../context/ScrollProvider";
+import pizzarita from "../assets/pizzarita-photo.png";
+import mrtech from "../assets/mrtech-photo.png";
+import clouday from "../assets/cloudy-photo.png";
 
 export default function Projects() {
   const sectionRefs = useScroll();
@@ -72,7 +75,9 @@ export default function Projects() {
               </h3>
             </div>
 
-            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900"></div>
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src={pizzarita} alt="" />
+            </div>
           </li>
           <li className="flex flex-col xl:flex-row gap-10">
             <div className="xl:w-1/2 flex flex-col gap-3">
@@ -105,7 +110,9 @@ export default function Projects() {
               </h3>
             </div>
 
-            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900"></div>
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src="" alt="" />
+            </div>
           </li>
           <li className="flex flex-col xl:flex-row gap-10">
             <div className="xl:w-1/2 flex flex-col gap-3">
@@ -131,14 +138,16 @@ export default function Projects() {
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
                 <span className="underline text-blue-500 text-sm font-bold md:font-semibold md:text-xl">
-                  <Link to="https://portfolio-5p27.onrender.com">
-                    https://portfolio-5p27.onrender.com
+                  <Link to="https://mrtech-fe.onrender.com">
+                    https://mrtech-fe.onrender.com
                   </Link>
                 </span>
               </h3>
             </div>
 
-            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900"></div>
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src={mrtech} alt="" />
+            </div>
           </li>
           <li className="flex flex-col xl:flex-row gap-10">
             <div className="xl:w-1/2 flex flex-col gap-3">
@@ -163,14 +172,16 @@ export default function Projects() {
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
                 <span className="underline text-blue-500 text-sm font-bold md:font-semibold md:text-xl">
-                  <Link to="https://portfolio-5p27.onrender.com">
-                    https://portfolio-5p27.onrender.com
+                  <Link to="https://clouday.onrender.com">
+                    https://clouday.onrender.com
                   </Link>
                 </span>
               </h3>
             </div>
 
-            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900"></div>
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src={clouday} alt="" />
+            </div>
           </li>
         </ul>
       </div>
