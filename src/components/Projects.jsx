@@ -5,6 +5,7 @@ import { useScroll } from "../context/ScrollProvider";
 import pizzarita from "../assets/pizzarita-photo.png";
 import mrtech from "../assets/mrtech-photo.png";
 import clouday from "../assets/cloudy-photo.png";
+import notetify from "../assets/notetify-photo.png";
 
 export default function Projects() {
   const sectionRefs = useScroll();
@@ -103,15 +104,15 @@ export default function Projects() {
               <h3 className="text-md font-bold md:font-semibold md:text-xl">
                 Link:{" "}
                 <span className="underline text-blue-500 text-sm font-bold md:font-semibold md:text-xl">
-                  <Link to="https://portfolio-5p27.onrender.com">
-                    https://portfolio-5p27.onrender.com
+                  <Link to="https://notetify.onrender.com">
+                    https://notetify.onrender.com
                   </Link>
                 </span>
               </h3>
             </div>
 
             <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
-              <img className="h-full w-full" src="" alt="" />
+              <img className="h-full w-full" src={notetify} alt="" />
             </div>
           </li>
           <li className="flex flex-col xl:flex-row gap-10">
@@ -181,6 +182,80 @@ export default function Projects() {
 
             <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
               <img className="h-full w-full" src={clouday} alt="" />
+            </div>
+          </li>
+          <li className="flex flex-col xl:flex-row gap-10">
+            <div className="xl:w-1/2 flex flex-col gap-3">
+              <h2 className="text-2xl font-bold  md:font-bold md:text-4xl">
+                JMG POS
+              </h2>
+              <p className="text-md md:text-2xl">
+                This POS (Point of Sale) Windows Form application streamlines
+                retail transactions, offering an intuitive interface for sales,
+                inventory management, and customer service.
+                <span className={`${showProject1 ? "" : "hidden"}`}>
+                  Key features include product scanning, real-time inventory
+                  updates, secure payment processing, and detailed sales
+                  reports.
+                </span>
+              </p>
+              <button
+                className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
+                onClick={handleToggle1}
+              >
+                Show <span>{showProject1 ? "less" : "more"}</span>...
+              </button>
+              <h3 className="text-md font-bold md:font-semibold md:text-xl">
+                Link:{" "}
+                <span className="underline text-blue-500 text-sm font-bold md:font-semibold md:text-xl">
+                  <Link to="https://github.com/biodota1/POS_App">
+                    https://github.com/biodota1/POS_App
+                  </Link>
+                </span>
+              </h3>
+            </div>
+
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src={pizzarita} alt="" />
+            </div>
+          </li>
+          <li className="flex flex-col xl:flex-row gap-10">
+            <div className="xl:w-1/2 flex flex-col gap-3">
+              <h2 className="text-2xl font-bold  md:font-bold md:text-4xl">
+                CPE GO
+              </h2>
+              <p className="text-md md:text-2xl">
+                In " CPE GO", step into a world where the classroom becomes an
+                epic battleground!
+                <span className={`${showProject1 ? "" : "hidden"}`}>
+                  This Pokémon-like game takes place in a vibrant school setting
+                  where students face off against formidable teachers. Each
+                  teacher possesses unique skills and challenges, turning every
+                  encounter into a strategic battle of wits. Players can train,
+                  upgrade their abilities, and form alliances to outsmart their
+                  educators. With every victory, gain new skills and rise
+                  through the ranks to become the ultimate school champion. Get
+                  ready for an educational adventure like no other!
+                </span>
+              </p>
+              <button
+                className="my-5 md:w-[250px] lg:text-xl xl:text-xl 2xl:text-2xl border-2 border-white p-2"
+                onClick={handleToggle1}
+              >
+                Show <span>{showProject1 ? "less" : "more"}</span>...
+              </button>
+              <h3 className="text-md font-bold md:font-semibold md:text-xl">
+                Link:{" "}
+                <span className="underline text-blue-500 text-sm font-bold md:font-semibold md:text-xl">
+                  <Link to="https://github.com/biodota1/CpeGo">
+                    https://github.com/biodota1/CpeGo
+                  </Link>
+                </span>
+              </h3>
+            </div>
+
+            <div className="h-[200px] w-full md:h-[500px] xl:w-1/2 bg-slate-900">
+              <img className="h-full w-full" src={pizzarita} alt="" />
             </div>
           </li>
         </ul>
