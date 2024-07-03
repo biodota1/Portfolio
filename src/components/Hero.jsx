@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profile from "../assets/hero-logo.png";
 import background from "../assets/background.jpg";
+import discord from "../assets/discord.png";
+import facebook from "../assets/facebook.png";
+import github from "../assets/github.png";
 
 export default function Hero() {
   return (
@@ -29,9 +32,20 @@ export default function Hero() {
             versatile professional capable of handling diverse aspects of web
             development projects.
           </p>
-          <Link className="my-5 lg:text-xl xl:text-3xl 2xl:text-3xl border-2 border-white p-2">
+          <p className="mt-5 lg:text-xl xl:text-3xl 2xl:text-3xl">
             Let's Connect
-          </Link>
+          </p>
+          <div className="flex gap-3">
+            <Link to="https://github.com/biodota1">
+              <img className="h-[55px]" src={github} alt="" />
+            </Link>
+            <Link to="https://www.facebook.com/jamesmyer.geonzon?mibextid=ZbWKwL">
+              <img className="h-[50px]" src={facebook} alt="" />
+            </Link>
+            <Link to="https://discord.gg/JRPRQEQd">
+              <img className="h-[50px]" src={discord} alt="" />
+            </Link>
+          </div>
         </div>
         <div className="w-auto flex justify-center items-center m-auto">
           <img
